@@ -1,0 +1,83 @@
+﻿
+body {
+    font-family: Arial,sans-serif;
+    padding: 0 3%;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+div.box {
+    text-align: center;
+}
+div.login {
+    width: 320px;
+    height: 410px;
+    background: antiquewhite;
+    color: #c7c3c3;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 70px 30px;
+
+}
+
+.boxtitle {
+    height: 12px !important;
+    padding: 1px 10px 4px 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.login h4 {
+    color:cornflowerblue;
+}
+.login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input{
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.login input[type="text"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none ;
+    height: 20px;
+    color:#000000;
+    font-size: 16px;
+}
+
+    .login input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 23px;
+        background: #000000;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+
+.login a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: lightseagreen;
+}

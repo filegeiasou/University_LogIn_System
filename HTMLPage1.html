@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Uniwa Webmail</title>
+    <link rel="icon" href="images1.png" />
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+    <style>
+        /* Style the footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            transform: translate(0%,490%);
+            line-height: 22px;
+            font-size: 12px;
+            width: 100%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="Εγχρωμο-έμβλημα.jpg" width="200" height="200" />
+    </div>
+    <div class="boxtitle">
+        Καλώς ήρθατε στο Uniwa Webmail
+    </div>
+    <div class="login">
+        <form action="connect.php" method="post">
+            <p>
+                <h4>Όνομα Χρήστη</h4>
+                <input type="text" name="username" placeholder="Όνομα Χρήστη" />
+            </p>
+            <p>
+                <h4>Κωδικός Πρόσβασης</h4>
+                <input type="password" name="password" placeholder="Κωδικός Πρόσβασης" />
+                <input type="submit" name="" value="Σύνδεση" />
+                <a href="https://www.uniwa.gr/i-zoi-sto-pada/ilektronikes-ypiresies/" target="_blank">Ηλεκτρονικές Υπηρεσίες Πανεπιστημίου</a>
+            </p>
+        </form>
+        <footer>   
+            <p>© 2022 Πανεπιστήμιο Δυτικής Αττικής – University of West Attica </p>
+        </footer>
+    </div>
+</body>
+</html>
